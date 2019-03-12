@@ -1,0 +1,77 @@
+@import url('reset.css');
+@import url('fuentes.css');
+* {
+	margin:0;
+	padding:0;
+	background:white;
+}
+a {
+	text-decoration:none;
+
+}
+a:hover {
+	color:black;
+	background:#1798af;
+}
+.main {
+	width:960px;
+	margin:auto;
+	clear:both;
+}
+header {
+	width:100%;
+	float:left;
+	background:white;
+}
+#cabecera {
+	width:1024px;
+	margin:auto;
+}
+#logotipo {
+	float:left;
+	width: 300px;
+	padding:10px 10px 10px 15px;
+}
+header #cabecera nav {
+	float:left;
+	width:690px;
+	padding:30px 0px;
+	text-align:right;
+}
+header #cabecera nav ul li {
+	display:inline;
+	font-family:sourcesans-light;
+}
+header #cabecera nav ul li a {
+	color:black;
+	float:left;
+	font-size:18px;
+	padding:10px;
+	border-radius:5px;
+}
+.caract {
+	width:100%;
+	float:left;
+	margin:auto;
+	text-align:center;
+}
+.caract #iconos {
+	width:1024px;
+	padding:20px;
+	display:block;
+}
+.caract #blog {
+	width:340px;
+	float:left;
+	text-align:center;
+}
+.caract #tienda {
+	width:900px;
+	float:left;
+	text-align:center;
+}
+.caract #serv {
+	width:1800px;
+	float:left;
+	text-align:center;
+}
